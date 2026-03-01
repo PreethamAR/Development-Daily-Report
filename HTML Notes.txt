@@ -1,0 +1,179 @@
+1️⃣ HTML Document Structure
+
+Basic skeleton of every HTML page.
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Page Title</title>
+</head>
+<body>
+   Content
+</body>
+</html>
+Important Tags
+Tag	Purpose
+<!DOCTYPE html>	Defines HTML5 document
+<html>	Root element
+<head>	Metadata section
+<title>	Browser tab title
+<body>	Visible webpage content
+<p>	Paragraph
+2️⃣ Basic HTML Tags
+Headings
+
+<h1> → Largest heading
+<h6> → Smallest heading
+
+Text Styling
+Tag	Use
+<b>	Bold text
+<i>	Italic text
+<strong>	Important text
+<em>	Emphasized text
+<mark>	Highlight text
+<s>	Strike text
+3️⃣ HTML Text Formatting Tags
+Tag	Description
+<code>	Display code
+<cite>	Title of work
+<time>	Date/time
+<address>	Address info
+<sub>	Subscript
+<sup>	Superscript
+<blockquote>	Quoted content
+<pre>	Preformatted text
+4️⃣ HTML Tables
+Table Structure
+<table>
+  <thead></thead>
+  <tbody></tbody>
+</table>
+Table Tags
+Tag	Purpose
+<table>	Create table
+<tr>	Table row
+<th>	Header cell
+<td>	Data cell
+<thead>	Header section
+<tbody>	Body section
+5️⃣ HTML Images
+<img src="image.jpg" alt="image" width="200" height="150">
+Attribute	Use
+src	Image path
+alt	Alternative text
+width	Width
+height	Height
+6️⃣ HTML Links (Anchor Tag)
+<a href="url" target="_blank">Link</a>
+Attribute	Meaning
+href	Link address
+target	Where to open link
+download	Download file
+7️⃣ HTML Lists
+Types of Lists
+Tag	Type
+<ol>	Ordered list
+<ul>	Unordered list
+<dl>	Description list
+<li>	List item
+<dt>	Term
+<dd>	Description
+8️⃣ HTML Forms
+
+Used to collect user input.
+
+<form action="" method="POST">
+</form>
+Form Attributes
+Attribute	Purpose
+name	Form name
+action	Backend path
+method	GET / POST
+enctype	Data encoding
+9️⃣ Form Input Types
+Text Inputs
+Type	Use
+text	Single line input
+password	Hidden text
+<textarea>	Multi-line input
+Buttons
+
+<button type="submit">Submit</button>
+
+Checkbox
+
+Select multiple options
+
+Same name groups them.
+
+Radio Button
+
+Select only one option
+
+Select Dropdown
+<select>
+  <option>Item</option>
+</select>
+Other Inputs
+Input	Use
+file	Upload files
+hidden	Invisible data
+label	Field label
+🔟 HTML5 New Input Types
+Type	Purpose
+date	Date picker
+datetime	Date + time
+time	Time selector
+email	Email input
+tel	Phone number
+color	Color picker
+number	Numbers
+range	Slider
+url	Website link
+1️⃣1️⃣ HTML Layout Tags (Semantic Structure)
+Tag	Purpose
+<div>	Container block
+<section>	Page section
+<header>	Top area
+<footer>	Bottom area
+<aside>	Side content
+<hr>	Horizontal line
+<br>	Line break
+1️⃣2️⃣ Video & Audio
+Video
+<video controls width="400">
+   <source src="video.mp4">
+</video>
+Audio
+<audio controls>
+   <source src="audio.mp3">
+</audio>
+
+Attributes:
+
+controls
+
+autoplay
+
+width, height
+
+1️⃣3️⃣ Adding CSS to HTML
+3 Methods
+Method	Tag
+Inline	style=""
+Internal	<style>
+External	<link>
+1️⃣4️⃣ Adding JavaScript
+
+Used to make web pages interactive.
+
+Examples:
+
+Menus
+
+Popups
+
+Animations
+
+Dynamic content
