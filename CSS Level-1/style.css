@@ -1,0 +1,24 @@
+ /* universal selector */ 
+
+ *{color: blue;}
+/* Eliment selector */
+ h2{
+     color: rgb(109, 39, 67);
+  }
+button{
+    color: rgb(130, 58, 58);
+    background-color: rgb(222, 212, 223);
+}
+
+body{
+    background-color: rgb(182, 188, 126);
+}
+/* using ID */
+#paragraph2{
+    color: rgb(23, 92, 66);
+}
+
+/* using class */
+.my-class{
+    color: rgb(92, 23, 66);
+}
