@@ -1,0 +1,30 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(51, 139, 139);
+    border: 2px solid black;
+      /* background-image: url(background-image.jpg); */
+
+}
+body{
+    background-image: url("background-image.jpg");
+    background-size: cover
+}
+
+
+#box1{
+    background-color: rgb(170, 173, 173);
+    /* unsplash.com for images */
+    background-image: url("background-image.jpg");
+    background-size:cover;
+}
+#box2{
+    background-color: blanchedalmond;
+}
+#box3{
+    background-color: blueviolet;
+}
+#box4{
+    background-color: brown;
+}
