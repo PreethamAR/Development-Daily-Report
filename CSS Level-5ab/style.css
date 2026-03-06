@@ -12,9 +12,9 @@ div{
     
     /* transition: all 2s steps(3) 1s; */
     /* transform:rotate(20deg); */
-    rotate:z 0deg ;
+    /* rotate: z 0deg; */
     /* transform: scale(); */
-    transform: scaleX();
+    transform: scaleX(1);
     transition: all 1s ease-in;
 }
 /* when cursor touches */
