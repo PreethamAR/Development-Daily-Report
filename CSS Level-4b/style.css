@@ -1,0 +1,26 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: blanchedalmond;
+}
+
+/* exactly 600px (rarely used) */
+@media (width: 600px){
+    div{
+        background-color: aqua;
+    }
+}
+
+/* 600px and above */
+@media (min-width: 600px){
+    div{
+        background-color: blueviolet;
+    }
+}
+
+/* between 600px and 800px */
+@media (min-width: 600px) and (max-width: 800px){
+    div{
+        background-color: rgb(72, 180, 17);
+    }
+}
