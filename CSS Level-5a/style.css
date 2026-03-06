@@ -1,0 +1,45 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s; */
+
+    
+    /* transition: all 2s steps(3) 1s; */
+    /* transform:rotate(20deg); */
+    rotate:z 0deg ;
+    /* transform: scale(); */
+    transform: scaleX();
+    transition: all 1s ease-in;
+}
+/* when cursor touches */
+div:hover{
+    background-color: brown;
+    color: aliceblue;
+    font-size: 20px;
+    /* transform: scaleY(2); */
+    /* rotate: 45deg; */
+    /* transform: translatex(50px); */
+    /* transform: translatey(50px); */
+
+    /* transition towords left */
+
+    /* transform: translatex(-50px); */
+    /* in both direction */
+
+    /* transform: skew(30deg); */
+
+    transform: translate(50px,50px);
+
+}
+/* while click */
+div:active{ 
+    background-color: rgb(51, 12, 87);
+    font-style: italic;
+}
+
